@@ -31,7 +31,7 @@ export default class ChromeBoisDomain extends Component {
 
    }
 
-   
+
   render() {
     return (
       <canvas
