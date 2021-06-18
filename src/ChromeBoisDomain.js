@@ -28,10 +28,10 @@ export default class ChromeBoisDomain extends Component {
    */
 
    whenKeyDown = (event) => {
-     if (event.letter = 'a') {
+     if (event.key = 'a') {
        resize('+')
      }
-      else if (event.letter = 's') {
+      else if (event.key = 's') {
         resize('-')
       }
    }
