@@ -43,6 +43,7 @@ export default class ChromeBoisDomain extends Component {
         onMouseMove={this.handleMouseMove}
 
         onClick={() => {toggleCycling()}}
+        whenKeyDown={this.whenKeyDown}
         width='900'
         height='600'
         tabIndex="0">
